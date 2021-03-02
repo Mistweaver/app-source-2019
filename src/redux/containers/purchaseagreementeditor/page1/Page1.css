@@ -1,0 +1,26 @@
+.pdf-page {
+	background-color: white;
+	width: 100%;
+	position: relative;
+	padding-top: 129.412%;
+	border: 1px solid black;
+}
+
+.pdf-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.input-box {
+	border: 1px solid black;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	font-size: 10pt;
+	padding: 2px;
+}

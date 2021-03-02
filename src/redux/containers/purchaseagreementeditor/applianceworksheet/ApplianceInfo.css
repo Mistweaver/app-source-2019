@@ -1,0 +1,11 @@
+.appliance-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 5px;
+}
+
+.appliance-row:hover {
+	background-color: rgb(238, 238, 238);
+}

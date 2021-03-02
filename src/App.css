@@ -1,0 +1,204 @@
+html, body, #app, #app>div {
+	height: 100%;
+	background-color: #282c34 /*#174275*/;
+}
+
+#microsoftLogin {
+	color: white;
+	display: flex;
+	background-color: #092743;
+	padding: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid skyblue;
+	justify-content: space-evenly;
+
+}
+#microsoftLogin:hover {
+	background-color: #174275;
+}
+
+.App {
+	/*background-image: url(./resources/abstract-antique-background-168452.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+}
+
+#loginBackground {
+	background-image: url(./resources/zachary-kyra-derksen-Fjom5RkW_rY-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 45%;
+}
+
+.leadRow:hover {
+	background-color: #c9c9c9;
+	cursor: pointer;
+}
+
+.buttonMinimal {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #D46938;
+	cursor: pointer;
+	display: flex;
+	padding: 2px;
+	border-radius: 3px;
+}
+
+.buttonMinimalBlue {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #73b2c9;
+	cursor: pointer;
+}
+
+.buttonStandard {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: black;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.buttonStandard:hover {
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.buttonMinimalBlue:hover {
+	border: 1px solid #73B2C9;
+}
+
+.buttonMinimal:hover {
+	border: 1px solid #D46938;
+	/*background-color: rgba(240, 240, 240, 0.9);*/
+}
+
+.buttonCritical {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: #6D291B;
+	cursor: pointer;
+
+}
+
+.buttonCritical:hover {
+	border: 1px solid #6D291B;
+}
+
+.flexedRow {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2px;
+}
+
+
+.iconAction {
+	color: #73B2C9;
+}
+
+.iconAction:hover {
+	color:rgb(186, 210, 215);
+	cursor: pointer;
+}
+
+
+/*** Color Schemes ***/
+.primary1 { color: #6D291B; }
+.primary2 { color: #36363E; }
+.primary3 { color: #73B2C9; }
+.primary4 { color: #BAD2D7; }
+.primary5 { color: #A54F26; }
+
+.primary6 { color: #B5CCD6; }
+.primary7 { color: #79B1C6; }
+.primary8 { color: #276D82; }
+.primary9 { color: #631F0F; }
+.primary10 { color: #D56B3B; }
+
+.primary11 { color: #D46938; }
+.primary12 { color: #CADADD; }
+.primary13 { color: #7DADC0; }
+.primary14 { color: #3C4953; }
+.primary15 { color: #65281D; }
+
+.primary16 { color: #D0DCDB; }
+.primary17 { color: #6FB1C4; }
+.primary18 { color: #247C90; }
+.primary19 { color: #86210a; }
+.primary20 { color: #CD6232; }
+
+.actionList:hover {
+	background-color: #CADADD;
+	cursor: pointer;
+}
+
+.actionList {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	border-bottom: 1px solid lightgrey;
+	padding: 10px;
+}
+
+
+/*.priceRow {
+
+}*/
+
+.priceRow:hover {
+	background-color: #c9c9c9;
+	cursor: pointer;
+}
+
+.rowSelected {
+	background-color: #7cdb7c;
+}
+
+.rowError {
+	background-color:  #ff9191;
+}
+
+.rowError:hover {
+	cursor: pointer;
+	background-color:#ffb1b1;
+}
+
+.rowWarning {
+	background-color: #fada80;
+}
+
+.rowWarning:hover {
+	cursor: pointer;
+	background-color: #ffe7a6;
+}
+
+.draftTab {
+	padding: 5px 20px;
+	background-color:rgb(96, 108, 117);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: rgb(186, 210, 215);
+	border: 1px solid  rgb(60, 73, 83);
+	cursor: pointer;
+	display: flex;
+}
+
+.draftTabActive {
+	padding: 5px 20px;
+	background-color: rgb(60, 73, 83);
+	color: rgb(186, 210, 215);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	cursor: pointer;
+	display: flex;
+
+}
